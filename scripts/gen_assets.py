@@ -135,7 +135,7 @@ CARDS = [
         slug="fisilti", title="Fısıltı", kicker="AI · BIOINFORMATICS · R&D",
         accent=("#22d3ee", "#34d399"),
         desc="Multi-omics, AI-driven discovery of a blood-based biomarker panel for early-stage pancreatic cancer (PDAC I/II).",
-        metric="8-gene panel · external AUC 0.87 – 0.95",
+        metric="8-protein panel · external tissue AUC 0.87 – 0.95",
         tags=["Python", "PyTorch", "MOFA+", "XGBoost", "SHAP"],
     ),
     dict(
@@ -155,7 +155,7 @@ CARDS = [
     dict(
         slug="opcode", title="Binary Opcode Analyzer", kicker="REVERSE ENGINEERING · DESKTOP",
         accent=("#fbbf24", "#f97316"),
-        desc="Dissects PE/ELF executables: x86 opcode categories, Shannon entropy for packed code and side-by-side comparison.",
+        desc="Looks inside PE executables and raw binaries: x86 opcode categories, Shannon entropy for packed code, side-by-side diff.",
         metric="CSV / HTML reports · IEEE-style paper",
         tags=["C++17", "Qt Charts", "CMake"],
     ),
