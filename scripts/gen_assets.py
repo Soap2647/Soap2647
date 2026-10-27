@@ -107,7 +107,7 @@ def header() -> None:
   </g>
   <rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="22" fill="none" stroke="#1e293b"/>
 </svg>"""
-    write("header.svg", svg)
+    write("banner.svg", svg)
 
 
 # ─────────────────────────────── cards ─────────────────────────────────

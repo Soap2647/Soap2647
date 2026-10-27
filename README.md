@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Mert Yasin Yılmaz — AI · Bioinformatics · Systems Programming · Full-Stack"/>
+<img src="assets/banner.svg" width="100%" alt="Mert Yasin Yılmaz — AI · Bioinformatics · Systems Programming · Full-Stack"/>
 
 <br/>
 
