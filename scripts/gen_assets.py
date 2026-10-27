@@ -5,7 +5,6 @@ from xml.sax.saxutils import escape
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
-(ASSETS / "cards").mkdir(parents=True, exist_ok=True)
 
 FONT = "'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
 MONO = "'JetBrains Mono', 'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace"
@@ -42,7 +41,7 @@ def header() -> None:
     role_nodes = ""
     for i, (label, color) in enumerate(roles):
         role_nodes += (
-            f'<text x="80" y="248" font-family="{MONO}" font-size="24" fill="{color}" opacity="0">'
+            f'<text x="80" y="222" font-family="{MONO}" font-size="24" fill="{color}" opacity="0">'
             f'&gt; {escape(label)}<tspan>'
             f'<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>▍</tspan>'
             f'<animate attributeName="opacity" dur="9s" begin="{i * 3}s" repeatCount="indefinite" '
@@ -86,17 +85,12 @@ def header() -> None:
       <animate attributeName="cx" values="640;560;640" dur="17s" repeatCount="indefinite"/>
     </circle>
 
-    <text x="80" y="104" font-family="{MONO}" font-size="17" fill="{MUTED}" letter-spacing="3">MERHABA, BEN</text>
-    <text x="78" y="176" font-family="{FONT}" font-size="66" font-weight="800" fill="url(#name)" letter-spacing="-1">Mert Yasin Yılmaz</text>
+    <text x="78" y="150" font-family="{FONT}" font-size="66" font-weight="800" fill="url(#name)" letter-spacing="-1">Mert Yasin Yılmaz</text>
     {role_nodes}
-    <text x="80" y="300" font-family="{FONT}" font-size="19" fill="{MUTED}">Computer Engineering @ Kastamonu University</text>
+    <text x="80" y="274" font-family="{FONT}" font-size="19" fill="{MUTED}">Computer Engineering @ Kastamonu University</text>
     <g font-family="{MONO}" font-size="14" fill="{MUTED}">
-      <rect x="80" y="324" width="152" height="32" rx="16" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".45"/>
-      <text x="156" y="345" text-anchor="middle" fill="#67e8f9">📍 Türkiye</text>
-      <rect x="244" y="324" width="206" height="32" rx="16" fill="#a78bfa" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".45"/>
-      <text x="347" y="345" text-anchor="middle" fill="#c4b5fd">🏆 Ideathon Winner</text>
-      <rect x="462" y="324" width="214" height="32" rx="16" fill="#f472b6" fill-opacity=".1" stroke="#f472b6" stroke-opacity=".45"/>
-      <text x="569" y="345" text-anchor="middle" fill="#f9a8d4">🚗 TEKNOFEST Captain</text>
+      <rect x="80" y="298" width="152" height="32" rx="16" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".45"/>
+      <text x="156" y="319" text-anchor="middle" fill="#67e8f9">📍 Türkiye</text>
     </g>
 
     <!-- avatar -->
@@ -274,8 +268,5 @@ def divider() -> None:
 
 if __name__ == "__main__":
     header()
-    for c in CARDS:
-        write(f"cards/{c['slug']}.svg", card(c))
-    awards()
     divider()
     print("ok")

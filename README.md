@@ -25,40 +25,6 @@ languages:  { Turkish: native, English: B2, German: B1 }
 
 <img src="assets/divider.svg" width="100%"/>
 
-## 🚀 Featured projects
-
-<p align="center">
-<a href="https://github.com/Soap2647/Fisilti"><img src="assets/cards/fisilti.svg" width="49%" alt="Fısıltı"/></a>&nbsp;<a href="https://github.com/Soap2647/Operating-System"><img src="assets/cards/mertos.svg" width="49%" alt="MertOS"/></a>
-<br/>
-<a href="https://github.com/Soap2647/Mert-Studio-Code-v2"><img src="assets/cards/doruk.svg" width="49%" alt="DORUK language and Mert Studio IDE"/></a>&nbsp;<a href="https://github.com/Soap2647/Binary-Opcode-Analyzer"><img src="assets/cards/opcode.svg" width="49%" alt="Binary Opcode Analyzer"/></a>
-<br/>
-<a href="https://github.com/Soap2647/TalentGuard-HR"><img src="assets/cards/talentguard.svg" width="49%" alt="TalentGuard HR"/></a>&nbsp;<a href="https://github.com/Soap2647/Hospital-No-Show"><img src="assets/cards/noshow.svg" width="49%" alt="Hospital No-Show"/></a>
-</p>
-
-<details>
-<summary><b>More projects</b></summary>
-<br/>
-
-| Project | What it is | Stack |
-|---|---|---|
-| [**Nebula PDF**](https://github.com/Soap2647/nebulapdf) | In-browser PDF editor: edit text, remove images, export, all on the client | React · Vite · pdf.js · pdf-lib |
-| [**Aşkımla – Watch Together**](https://github.com/Soap2647/dizi-film) | Room-code screen sharing over WebRTC P2P with live emoji and GIF reactions | React · Socket.IO · WebRTC |
-| [**Conference Management**](https://github.com/Soap2647/Conference-Management) | Paper submission and peer-review workflow with role-based access | ASP.NET Core MVC · Identity · EF Core |
-| [**Geometry Wars**](https://github.com/Soap2647/Geometry-Wars) | Neon arcade shooter with particle effects, a warping grid and enemy AI | Python · Pygame |
-| [**Tower Defense**](https://github.com/Soap2647/Tower-Defense) | Wave-based strategy game with three tower types and an in-game economy | Python · Pygame |
-| [**Mert Studio Code (web)**](https://github.com/Soap2647/Mert-Studio-Code) | The first, web-based editor for the DORUK language | React · Vite · Electron |
-| [**WakeBreaker Web**](https://github.com/Soap2647/wakebreaker_web) | Landing page and web client for the WakeBreaker alarm app | Flutter Web · Dart |
-| [**Academic Projects**](https://github.com/Soap2647/Academic-Projects) | Archive of HTML/CSS and PHP + MySQL coursework | HTML · CSS · PHP · MySQL |
-| [**Research Assignments**](https://github.com/Soap2647/Research-Assignments) | Short papers on network and web security topics | PDF |
-
-</details>
-
-<img src="assets/divider.svg" width="100%"/>
-
-## 🏆 Awards & grant-funded projects
-
-<img src="assets/awards.svg" width="100%" alt="Genç AI Ideathon 1st place (team captain); TEKNOFEST Efficiency Challenge software team captain; UDHAM 3rd and 4th term incentive awards; ÜNİDES 5th and 6th term grant-funded projects; Fısıltı, Kastamonu University R&D Project Market"/>
-
 ## 🎓 Education
 
 <table>
@@ -118,10 +84,6 @@ languages:  { Turkish: native, English: B2, German: B1 }
 Kastamonu Üniversitesi **Bilgisayar Mühendisliği** öğrencisiyim. Sıfırdan bir işletim sistemi çekirdeği, Türkçe anahtar kelimeli bir programlama dili ya da çoklu-omik veride pankreas kanserinin erken izlerini arayan bir yapay zekâ hattı gibi işleri temelden kurmayı seviyorum.
 
 - **Şu an:** Fısıltı, erken evre pankreas kanseri için kan tabanlı biyobelirteç paneli (Kastamonu Üniversitesi AR-GE Proje Pazarı, yürütücü)
-- **Genç AI Ideathon:** Birincilik, takım kaptanı (Samsun Büyükşehir Belediyesi × Kastamonu Üniversitesi Teknopark)
-- **TEKNOFEST Efficiency Challenge (Elektromobil):** Yazılım ekibi takım kaptanı
-- **UDHAM 3. ve 4. Dönem Ar-Ge Fikir Yarışması:** Teşvik ödülleri (4. dönemde proje yürütücüsü)
-- **ÜNİDES 5. ve 6. Dönem:** Gençlik ve Spor Bakanlığı destekli projelerde projeden sorumlu ekip üyesi
 - **Diller:** Türkçe (ana dil), İngilizce (B2), Almanca (B1)
 
 </details>
