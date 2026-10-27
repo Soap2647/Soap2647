@@ -1,5 +1,4 @@
 """Generates the hand-made SVG assets for the GitHub profile README."""
-import base64
 import pathlib
 from xml.sax.saxutils import escape
 
@@ -21,10 +20,49 @@ def write(name: str, svg: str) -> None:
 
 
 # ─────────────────────────────── header ────────────────────────────────
+
+def neural_net() -> str:
+    """Animated feed-forward network drawn on the right side of the banner."""
+    layers = [[120, 200, 280], [80, 140, 200, 260, 320], [80, 140, 200, 260, 320], [160, 240]]
+    xs = [800, 900, 1000, 1100]
+    colors = ["#22d3ee", "#a78bfa", "#c084fc", "#f472b6"]
+    edges = "".join(
+        f'<line x1="{xs[l]}" y1="{y1}" x2="{xs[l + 1]}" y2="{y2}" stroke="#334155" stroke-width="1" opacity=".55"/>'
+        for l in range(3) for y1 in layers[l] for y2 in layers[l + 1]
+    )
+    # signals travelling input → output along a few fixed routes
+    routes = [(0, 1, 2, 0), (1, 3, 1, 1), (2, 0, 3, 1), (1, 2, 4, 0), (0, 4, 2, 1), (2, 1, 0, 0)]
+    signals = ""
+    for i, route in enumerate(routes):
+        pts = [(xs[l], layers[l][n]) for l, n in enumerate(route)]
+        d = "M" + " L".join(f"{x} {y}" for x, y in pts)
+        col = colors[i % len(colors)]
+        signals += (
+            f'<path d="{d}" fill="none" stroke="{col}" stroke-width="2" stroke-linecap="round" '
+            f'stroke-dasharray="40 400" stroke-dashoffset="440" opacity=".85">'
+            f'<animate attributeName="stroke-dashoffset" values="440;0" dur="3s" begin="{i * 0.5}s" repeatCount="indefinite"/></path>'
+            f'<circle r="4" fill="{col}"><animateMotion path="{d}" dur="3s" begin="{i * 0.5}s" repeatCount="indefinite"/>'
+            f'<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="3s" begin="{i * 0.5}s" repeatCount="indefinite"/></circle>'
+        )
+    nodes = ""
+    for l, (x, col) in enumerate(zip(xs, colors)):
+        for j, y in enumerate(layers[l]):
+            delay = (l * 0.6 + j * 0.25) % 3
+            nodes += (
+                f'<circle cx="{x}" cy="{y}" r="16" fill="{col}" opacity=".12"/>'
+                f'<circle cx="{x}" cy="{y}" r="10" fill="#0f172a" stroke="{col}" stroke-width="2.5"/>'
+                f'<circle cx="{x}" cy="{y}" r="4" fill="{col}">'
+                f'<animate attributeName="opacity" values=".25;1;.25" dur="3s" begin="{delay:.2f}s" repeatCount="indefinite"/></circle>'
+            )
+    labels = "".join(
+        f'<text x="{x}" y="368" text-anchor="middle" font-family="{MONO}" font-size="14" fill="{MUTED}">{t}</text>'
+        for x, t in zip(xs, ["x", "h₁", "h₂", "ŷ"])
+    )
+    return f"<g>{edges}{signals}{nodes}{labels}</g>"
+
 def header() -> None:
-    avatar = base64.b64encode((ASSETS / "avatar.jpg").read_bytes()).decode()
     w, h = 1200, 400
-    cx, cy, r = 965, 200, 118
+    network = neural_net()
 
     # faint dotted grid
     dots = "".join(
@@ -33,9 +71,9 @@ def header() -> None:
         for y in range(30, h, 40)
     )
     roles = [
-        ("AI · Bioinformatics", "#22d3ee"),
-        ("Systems Programming", "#a78bfa"),
-        ("Full-Stack Development", "#f472b6"),
+        ("Machine Learning", "#22d3ee"),
+        ("Artificial Intelligence", "#a78bfa"),
+        ("AI for Healthcare", "#f472b6"),
     ]
     # each role is visible for 3s of a 9s loop, staggered by `begin`
     role_nodes = ""
@@ -49,7 +87,7 @@ def header() -> None:
         )
 
     svg = f"""
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Mert Yasin Yılmaz — Computer Engineering student">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Mert Yasin Yılmaz — Machine Learning and AI">
   <title>Mert Yasin Yılmaz</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -69,7 +107,6 @@ def header() -> None:
       <stop offset=".5" stop-color="#a78bfa"/>
       <stop offset="1" stop-color="#f472b6"/>
     </linearGradient>
-    <clipPath id="clip"><circle cx="{cx}" cy="{cy}" r="{r}"/></clipPath>
     <clipPath id="frame"><rect width="{w}" height="{h}" rx="22"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
@@ -93,17 +130,7 @@ def header() -> None:
       <text x="156" y="319" text-anchor="middle" fill="#67e8f9">📍 Türkiye</text>
     </g>
 
-    <!-- avatar -->
-    <circle cx="{cx}" cy="{cy}" r="{r + 26}" fill="none" stroke="url(#ring)" stroke-width="1.5" stroke-dasharray="4 10" opacity=".7">
-      <animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy}" to="360 {cx} {cy}" dur="40s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="{cx}" cy="{cy}" r="{r + 10}" fill="none" stroke="url(#ring)" stroke-width="4" stroke-dasharray="520 300" stroke-linecap="round">
-      <animateTransform attributeName="transform" type="rotate" from="360 {cx} {cy}" to="0 {cx} {cy}" dur="12s" repeatCount="indefinite"/>
-    </circle>
-    <image href="data:image/jpeg;base64,{avatar}" xlink:href="data:image/jpeg;base64,{avatar}" x="{cx - r}" y="{cy - r}" width="{2 * r}" height="{2 * r}" clip-path="url(#clip)" preserveAspectRatio="xMidYMid slice"/>
-    <circle cx="{cx + 82}" cy="{cy + 84}" r="13" fill="#34d399" stroke="#0a0f1e" stroke-width="5">
-      <animate attributeName="r" values="13;15;13" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
+    {network}
   </g>
   <rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="22" fill="none" stroke="#1e293b"/>
 </svg>"""

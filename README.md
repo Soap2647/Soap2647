@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Mert Yasin Yılmaz — AI · Bioinformatics · Systems Programming · Full-Stack"/>
+<img src="assets/banner.svg" width="100%" alt="Mert Yasin Yılmaz — Machine Learning · Artificial Intelligence · AI for Healthcare"/>
 
 <br/>
 
@@ -12,14 +12,14 @@
 
 ## 👋 About me
 
-I'm a **Computer Engineering student at Kastamonu University** who likes building things from the ground up: an operating system kernel, a programming language with Turkish keywords, or a machine-learning pipeline that searches multi-omics data for early signs of pancreatic cancer.
+I'm a **Computer Engineering student at Kastamonu University specialising in machine learning and artificial intelligence**. My main project is a machine-learning pipeline that searches multi-omics data for early signs of pancreatic cancer, and I build explainable models for real-world problems such as healthcare and HR analytics.
 
-Most of my work sits where **AI meets real-world problems** (health, HR, transport) and where **low-level systems** meet clean, usable interfaces. I lead teams in national competitions and R&D programmes, and I care about reproducible, honestly reported results.
+I like to understand things from the ground up, which is why I've also written an operating system kernel and a programming language. I care about **reproducible, explainable and honestly reported results**, and I lead teams in national competitions and R&D programmes.
 
 ```yaml
-focus:      [AI/ML for healthcare, bioinformatics, systems programming, full-stack apps]
+focus:      [machine learning, deep learning, explainable AI, AI for healthcare]
 now:        Fısıltı · blood-based biomarker panel for early-stage pancreatic cancer
-exploring:  quantum algorithms (QAOA), autonomous-driving software, compilers
+exploring:  multi-omics integration, attention-based MIL, quantum ML (QAOA)
 languages:  { Turkish: native, English: B2, German: B1 }
 ```
 
@@ -81,7 +81,7 @@ languages:  { Turkish: native, English: B2, German: B1 }
 <summary><b>🇹🇷 Türkçe özet</b></summary>
 <br/>
 
-Kastamonu Üniversitesi **Bilgisayar Mühendisliği** öğrencisiyim. Sıfırdan bir işletim sistemi çekirdeği, Türkçe anahtar kelimeli bir programlama dili ya da çoklu-omik veride pankreas kanserinin erken izlerini arayan bir yapay zekâ hattı gibi işleri temelden kurmayı seviyorum.
+Kastamonu Üniversitesi **Bilgisayar Mühendisliği** öğrencisiyim ve **makine öğrenmesi ile yapay zekâ** alanında uzmanlaşıyorum. Ana projem, çoklu-omik veride pankreas kanserinin erken izlerini arayan bir makine öğrenmesi hattı. Sağlık ve İK gibi gerçek dünya problemleri için açıklanabilir modeller geliştiriyorum.
 
 - **Şu an:** Fısıltı, erken evre pankreas kanseri için kan tabanlı biyobelirteç paneli (Kastamonu Üniversitesi AR-GE Proje Pazarı, yürütücü)
 - **Diller:** Türkçe (ana dil), İngilizce (B2), Almanca (B1)
