@@ -4,7 +4,7 @@
 
 <br/>
 
-<a href="mailto:mertyasinyilmaz26@gmail.com"><img src="https://img.shields.io/badge/Email-mertyasinyilmaz26%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=22d3ee&labelColor=0a0f1e" alt="Email"/></a>&nbsp;<a href="https://www.linkedin.com/in/mert-yasin-yilmaz"><img src="https://img.shields.io/badge/LinkedIn-Connect-0f172a?style=for-the-badge&logo=linkedin&logoColor=a78bfa&labelColor=0a0f1e" alt="LinkedIn"/></a>&nbsp;<a href="https://github.com/Soap2647?tab=repositories"><img src="https://img.shields.io/badge/Projects-15%2B-0f172a?style=for-the-badge&logo=github&logoColor=f472b6&labelColor=0a0f1e" alt="Projects"/></a>
+<a href="mailto:mertyasinyilmaz26@gmail.com"><img src="https://img.shields.io/badge/Email-mertyasinyilmaz26%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=22d3ee&labelColor=0a0f1e" alt="Email"/></a>&nbsp;<a href="https://www.linkedin.com/in/mert-yasin-yilmaz-7b58a6220/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0f172a?style=for-the-badge&logo=linkedin&logoColor=a78bfa&labelColor=0a0f1e" alt="LinkedIn"/></a>&nbsp;<a href="https://github.com/Soap2647?tab=repositories"><img src="https://img.shields.io/badge/Projects-15%2B-0f172a?style=for-the-badge&logo=github&logoColor=f472b6&labelColor=0a0f1e" alt="Projects"/></a>
 
 </div>
 
