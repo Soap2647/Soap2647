@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Mert Yasin Yılmaz — Machine Learning · Artificial Intelligence · AI for Healthcare"/>
+<img src="assets/hero.svg" width="100%" alt="Mert Yasin Yılmaz — Machine Learning · Artificial Intelligence · AI for Healthcare"/>
 
 <br/>
 
