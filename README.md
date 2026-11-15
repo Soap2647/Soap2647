@@ -4,7 +4,7 @@
 
 <br/>
 
-<a href="mailto:mertyasinyilmaz26@gmail.com"><img src="https://img.shields.io/badge/Email-mertyasinyilmaz26%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=22d3ee&labelColor=0a0f1e" alt="Email"/></a>&nbsp;<a href="https://www.linkedin.com/in/mert-yasin-yilmaz-7b58a6220/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0f172a?style=for-the-badge&logo=linkedin&logoColor=a78bfa&labelColor=0a0f1e" alt="LinkedIn"/></a>&nbsp;<a href="https://github.com/Soap2647?tab=repositories"><img src="https://img.shields.io/badge/Projects-15%2B-0f172a?style=for-the-badge&logo=github&logoColor=f472b6&labelColor=0a0f1e" alt="Projects"/></a>
+<a href="mailto:mertyasinyilmaz26@gmail.com"><img src="https://img.shields.io/badge/Email-mertyasinyilmaz26%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=22d3ee&labelColor=0a0f1e" alt="Email"/></a>&nbsp;<a href="https://www.linkedin.com/in/mert-yasin-yilmaz-7b58a6220/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0f172a?style=for-the-badge&logo=linkedin&logoColor=a78bfa&labelColor=0a0f1e" alt="LinkedIn"/></a>&nbsp;<a href="https://github.com/Soap2647?tab=repositories"><img src="https://img.shields.io/badge/Projects-25%2B-0f172a?style=for-the-badge&logo=github&logoColor=f472b6&labelColor=0a0f1e" alt="Projects"/></a>
 
 </div>
 
@@ -15,6 +15,8 @@
 I'm a **Computer Engineering student at Kastamonu University specialising in machine learning and artificial intelligence**. My main project is a machine-learning pipeline that searches multi-omics data for early signs of pancreatic cancer, and I build explainable models for real-world problems such as healthcare and HR analytics.
 
 I like to understand things from the ground up, which is why I've also written an operating system kernel and a programming language. I care about **reproducible, explainable and honestly reported results**, and I lead teams in national competitions and R&D programmes.
+
+I believe software engineering is becoming **AI direction**: deciding what to build, splitting it into steps, reviewing what agents produce and owning the result. I work that way every day and keep a public [**build log**](https://github.com/Soap2647/ai-build-log) of it.
 
 ```yaml
 focus:      [machine learning, deep learning, explainable AI, AI for healthcare]
@@ -67,6 +69,20 @@ languages:  { Turkish: native, English: B2, German: B1 }
 
 <img src="assets/divider.svg" width="100%"/>
 
+## 🛠️ Build log
+
+<sub>What I built by directing AI agents, updated automatically from <a href="https://github.com/Soap2647/ai-build-log">ai-build-log</a>.</sub>
+
+<!-- BUILD-LOG:START -->
+
+| Day | What I built with AI |
+|---|---|
+| `2026-11-15` | [**Turning my GitHub into a public build log**](https://github.com/Soap2647/ai-build-log/blob/main/log/2026/2026-11-15.md)<br/><sub>Audited 55 local projects with an AI agent, scrubbed leaked keys, open-sourced 10 projects under MIT and started this log.</sub> |
+
+<!-- BUILD-LOG:END -->
+
+<img src="assets/divider.svg" width="100%"/>
+
 ## 📈 Activity
 
 <p align="center">
@@ -84,6 +100,7 @@ languages:  { Turkish: native, English: B2, German: B1 }
 Kastamonu Üniversitesi **Bilgisayar Mühendisliği** öğrencisiyim ve **makine öğrenmesi ile yapay zekâ** alanında uzmanlaşıyorum. Ana projem, çoklu-omik veride pankreas kanserinin erken izlerini arayan bir makine öğrenmesi hattı. Sağlık ve İK gibi gerçek dünya problemleri için açıklanabilir modeller geliştiriyorum.
 
 - **Şu an:** Fısıltı, erken evre pankreas kanseri için kan tabanlı biyobelirteç paneli (Kastamonu Üniversitesi AR-GE Proje Pazarı, yürütücü)
+- **Çalışma şeklim:** Yazılım mühendisliğinin yapay zekâ direktörlüğüne döndüğünü düşünüyorum; her gün AI ajanlarıyla ne inşa ettiğimi [build log](https://github.com/Soap2647/ai-build-log)'da paylaşıyorum.
 - **Diller:** Türkçe (ana dil), İngilizce (B2), Almanca (B1)
 
 </details>
