@@ -74,16 +74,19 @@ def header() -> None:
         ("Machine Learning", "#22d3ee"),
         ("Artificial Intelligence", "#a78bfa"),
         ("AI for Healthcare", "#f472b6"),
+        ("Shipping daily with AI agents", "#fbbf24"),
     ]
-    # each role is visible for 3s of a 9s loop, staggered by `begin`
+    # each role is visible for 3s of a 3n-second loop, staggered by `begin`
+    n = len(roles)
+    loop, share = 3 * n, 1 / n
     role_nodes = ""
     for i, (label, color) in enumerate(roles):
         role_nodes += (
             f'<text x="80" y="222" font-family="{MONO}" font-size="24" fill="{color}" opacity="0">'
             f'&gt; {escape(label)}<tspan>'
             f'<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>▍</tspan>'
-            f'<animate attributeName="opacity" dur="9s" begin="{i * 3}s" repeatCount="indefinite" '
-            f'keyTimes="0;0.04;0.3;0.333;1" values="0;1;1;0;0"/></text>'
+            f'<animate attributeName="opacity" dur="{loop}s" begin="{i * 3}s" repeatCount="indefinite" '
+            f'keyTimes="0;{share * 0.12:.3f};{share * 0.9:.3f};{share:.3f};1" values="0;1;1;0;0"/></text>'
         )
 
     svg = f"""

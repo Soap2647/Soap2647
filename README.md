@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Mert Yasin Yılmaz — Machine Learning · Artificial Intelligence · AI for Healthcare"/>
+<img src="assets/hero.svg" width="100%" alt="Mert Yasin Yılmaz — Machine Learning · Artificial Intelligence · AI for Healthcare · Shipping daily with AI agents"/>
 
 <br/>
 
@@ -22,8 +22,27 @@ I believe software engineering is becoming **AI direction**: deciding what to bu
 focus:      [machine learning, deep learning, explainable AI, AI for healthcare]
 now:        Fısıltı · blood-based biomarker panel for early-stage pancreatic cancer
 exploring:  multi-omics integration, attention-based MIL, quantum ML (QAOA)
+daily:      ai-build-log · one entry per working day
 languages:  { Turkish: native, English: B2, German: B1 }
 ```
+
+<p align="center"><sub>
+<b>28</b> open-source <a href="https://github.com/Soap2647?tab=repositories">repos</a> &nbsp;·&nbsp; <b>9</b> languages &nbsp;·&nbsp; an <b>80-chapter</b> engineering <a href="https://github.com/Soap2647/muhendis-el-kitabi">handbook</a> &nbsp;·&nbsp; an OS kernel and a programming language, from scratch
+</sub></p>
+
+<img src="assets/divider.svg" width="100%"/>
+
+## 🛠️ Build log
+
+<sub>What I built by directing AI agents, updated automatically from <a href="https://github.com/Soap2647/ai-build-log">ai-build-log</a>.</sub>
+
+<!-- BUILD-LOG:START -->
+
+| Day | What I built with AI |
+|---|---|
+| `2026-11-15` | [**Turning my GitHub into a public build log**](https://github.com/Soap2647/ai-build-log/blob/main/log/2026/2026-11-15.md)<br/><sub>Audited 55 local projects with an AI agent, scrubbed leaked keys, open-sourced 10 projects under MIT and started this log.</sub> |
+
+<!-- BUILD-LOG:END -->
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -41,45 +60,8 @@ languages:  { Turkish: native, English: B2, German: B1 }
 ## 🧰 Tech stack
 
 <p align="center">
-  <b>Languages</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=py,cpp,c,cs,js,ts,dart,html,css,bash&perline=10" alt="Python, C++, C, C#, JavaScript, TypeScript, Dart, HTML, CSS, Bash"/>
+  <img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,fastapi,cpp,c,cs,dotnet,ts,react,dart,flutter,rust,linux&perline=14" alt="Python, PyTorch, scikit-learn, FastAPI, C++, C, C#, .NET, TypeScript, React, Dart, Flutter, Rust, Linux"/>
 </p>
-<p align="center">
-  <b>Frameworks & libraries</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=pytorch,sklearn,fastapi,dotnet,react,vite,tailwind,electron,qt,flutter,nodejs&perline=11" alt="PyTorch, scikit-learn, FastAPI, .NET, React, Vite, Tailwind, Electron, Qt, Flutter, Node.js"/>
-</p>
-<p align="center">
-  <b>Data, tools & platforms</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,linux,git,github,cmake,vscode&perline=10" alt="PostgreSQL, MySQL, Linux, Git, GitHub, CMake, VS Code"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/XGBoost-0f172a?style=flat-square&labelColor=0a0f1e&color=0f172a" alt="XGBoost"/>
-  <img src="https://img.shields.io/badge/LightGBM-0f172a?style=flat-square" alt="LightGBM"/>
-  <img src="https://img.shields.io/badge/SHAP-0f172a?style=flat-square" alt="SHAP"/>
-  <img src="https://img.shields.io/badge/MOFA+-0f172a?style=flat-square" alt="MOFA+"/>
-  <img src="https://img.shields.io/badge/Blazor-0f172a?style=flat-square&logo=blazor&logoColor=a78bfa" alt="Blazor"/>
-  <img src="https://img.shields.io/badge/EF_Core-0f172a?style=flat-square&logo=dotnet&logoColor=a78bfa" alt="EF Core"/>
-  <img src="https://img.shields.io/badge/SQL_Server-0f172a?style=flat-square&logo=microsoftsqlserver&logoColor=f472b6" alt="SQL Server"/>
-  <img src="https://img.shields.io/badge/NASM-0f172a?style=flat-square&logo=assemblyscript&logoColor=22d3ee" alt="NASM"/>
-  <img src="https://img.shields.io/badge/QEMU-0f172a?style=flat-square&logo=qemu&logoColor=fbbf24" alt="QEMU"/>
-  <img src="https://img.shields.io/badge/WebRTC-0f172a?style=flat-square&logo=webrtc&logoColor=34d399" alt="WebRTC"/>
-  <img src="https://img.shields.io/badge/Pygame-0f172a?style=flat-square&logo=python&logoColor=fbbf24" alt="Pygame"/>
-</p>
-
-<img src="assets/divider.svg" width="100%"/>
-
-## 🛠️ Build log
-
-<sub>What I built by directing AI agents, updated automatically from <a href="https://github.com/Soap2647/ai-build-log">ai-build-log</a>.</sub>
-
-<!-- BUILD-LOG:START -->
-
-| Day | What I built with AI |
-|---|---|
-| `2026-11-15` | [**Turning my GitHub into a public build log**](https://github.com/Soap2647/ai-build-log/blob/main/log/2026/2026-11-15.md)<br/><sub>Audited 55 local projects with an AI agent, scrubbed leaked keys, open-sourced 10 projects under MIT and started this log.</sub> |
-
-<!-- BUILD-LOG:END -->
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -100,7 +82,8 @@ languages:  { Turkish: native, English: B2, German: B1 }
 Kastamonu Üniversitesi **Bilgisayar Mühendisliği** öğrencisiyim ve **makine öğrenmesi ile yapay zekâ** alanında uzmanlaşıyorum. Ana projem, çoklu-omik veride pankreas kanserinin erken izlerini arayan bir makine öğrenmesi hattı. Sağlık ve İK gibi gerçek dünya problemleri için açıklanabilir modeller geliştiriyorum.
 
 - **Şu an:** Fısıltı, erken evre pankreas kanseri için kan tabanlı biyobelirteç paneli (Kastamonu Üniversitesi AR-GE Proje Pazarı, yürütücü)
-- **Çalışma şeklim:** Yazılım mühendisliğinin yapay zekâ direktörlüğüne döndüğünü düşünüyorum; her gün AI ajanlarıyla ne inşa ettiğimi [build log](https://github.com/Soap2647/ai-build-log)'da paylaşıyorum.
+- **Çalışma şeklim:** Yazılım mühendisliğinin yapay zekâ direktörlüğüne döndüğünü düşünüyorum: neyin yapılacağına karar vermek, işi adımlara bölmek, ajanların çıktısını denetlemek ve sonucun sahibi olmak. Her gün böyle çalışıyorum ve ne inşa ettiğimi [build log](https://github.com/Soap2647/ai-build-log)'da paylaşıyorum.
+- **Rakamlarla:** 28 açık kaynak repo, 80 bölümlük bir mühendislik [el kitabı](https://github.com/Soap2647/muhendis-el-kitabi), sıfırdan yazılmış bir işletim sistemi çekirdeği ve bir programlama dili.
 - **Diller:** Türkçe (ana dil), İngilizce (B2), Almanca (B1)
 
 </details>
