@@ -18,16 +18,19 @@ I like to understand things from the ground up, which is why I've also written a
 
 I believe software engineering is becoming **AI direction**: deciding what to build, splitting it into steps, reviewing what agents produce and owning the result. I work that way every day and keep a public [**build log**](https://github.com/Soap2647/ai-build-log) of it.
 
+I also turn what I learn into open-source **Claude Code skills**. The first one, [**tr-akademik-humanizer**](https://github.com/Soap2647/tr-akademik-humanizer), cleans AI-writing patterns out of Turkish academic text such as TÜBİTAK proposals, without inventing citations or touching the numbers.
+
 ```yaml
 focus:      [machine learning, deep learning, explainable AI, AI for healthcare]
 now:        Fısıltı · blood-based biomarker panel for early-stage pancreatic cancer
 exploring:  multi-omics integration, attention-based MIL, quantum ML (QAOA)
 daily:      ai-build-log · one entry per working day
+skills:     tr-akademik-humanizer · Claude Code skill for Turkish academic writing
 languages:  { Turkish: native, English: B2, German: B1 }
 ```
 
 <p align="center"><sub>
-<b>28</b> open-source <a href="https://github.com/Soap2647?tab=repositories">repos</a> &nbsp;·&nbsp; <b>9</b> languages &nbsp;·&nbsp; an <b>80-chapter</b> engineering <a href="https://github.com/Soap2647/muhendis-el-kitabi">handbook</a> &nbsp;·&nbsp; an OS kernel and a programming language, from scratch
+<b>29</b> open-source <a href="https://github.com/Soap2647?tab=repositories">repos</a> &nbsp;·&nbsp; <b>9</b> languages &nbsp;·&nbsp; an <b>80-chapter</b> engineering <a href="https://github.com/Soap2647/muhendis-el-kitabi">handbook</a> &nbsp;·&nbsp; an OS kernel and a programming language, from scratch
 </sub></p>
 
 <img src="assets/divider.svg" width="100%"/>
@@ -83,7 +86,8 @@ Kastamonu Üniversitesi **Bilgisayar Mühendisliği** öğrencisiyim ve **makine
 
 - **Şu an:** Fısıltı, erken evre pankreas kanseri için kan tabanlı biyobelirteç paneli (Kastamonu Üniversitesi AR-GE Proje Pazarı, yürütücü)
 - **Çalışma şeklim:** Yazılım mühendisliğinin yapay zekâ direktörlüğüne döndüğünü düşünüyorum: neyin yapılacağına karar vermek, işi adımlara bölmek, ajanların çıktısını denetlemek ve sonucun sahibi olmak. Her gün böyle çalışıyorum ve ne inşa ettiğimi [build log](https://github.com/Soap2647/ai-build-log)'da paylaşıyorum.
-- **Rakamlarla:** 28 açık kaynak repo, 80 bölümlük bir mühendislik [el kitabı](https://github.com/Soap2647/muhendis-el-kitabi), sıfırdan yazılmış bir işletim sistemi çekirdeği ve bir programlama dili.
+- **Claude skill'leri:** Türkçe akademik metinlerdeki (ör. TÜBİTAK önerileri) yapay zekâ izlerini kaynak uydurmadan ve sayılara dokunmadan temizleyen [tr-akademik-humanizer](https://github.com/Soap2647/tr-akademik-humanizer).
+- **Rakamlarla:** 29 açık kaynak repo, 80 bölümlük bir mühendislik [el kitabı](https://github.com/Soap2647/muhendis-el-kitabi), sıfırdan yazılmış bir işletim sistemi çekirdeği ve bir programlama dili.
 - **Diller:** Türkçe (ana dil), İngilizce (B2), Almanca (B1)
 
 </details>
